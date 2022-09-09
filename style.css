@@ -6,15 +6,20 @@ body{
 .navbar{
     display: block;
     margin-top: 0;
+    margin-bottom: 0;
     position: fixed;
     width: 100%;
-    background-image: url(photo/8177118.jpg);
+    /* background-image: url(photo/8177118.jpg); */
     background-size:cover ;
+    font-family: 'Cinzel', serif;
+    color: black;
+    font-size: 20px;
     /* height: 40px; */
     /* background-image: url(photo/8177118.jpg); */
     /* text-align: left; */
     /* background-color: red; */
 }
+
 
 .center{
     background-color: blueviolet;
@@ -22,7 +27,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     /* width: 100%; */
-    height: 700px;
+    height: 750px;
     text-align: center;
     /* font-family: 'Qwitcher Grypen', cursive; */
     font-family: 'Combo', cursive;
@@ -47,21 +52,34 @@ body{
     text-align: center;
 }
 
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    color:black;
+    text-decoration: none;
+}
+
 .rightvale{
     display: inline-block;
-    /* position: absolute;
-    left : 10px; */
+    position: absolute;
+    left : 10px;
+    height: 0;
 }
 
 .leftvale{
     display: inline-block;
     position: absolute;
-    right: 80px;
+    right: 20px;
+    height: 0;
     /* background-color: yellow; */
 }
 
 h2{
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 .foto{
@@ -172,4 +190,175 @@ img{
     top: 220px;
     /* right: 310px; */
     left: 10px;
+}
+.skills{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 60px;
+    position: block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.abtskills{
+    position: relative;
+    /* bottom: 20px; */
+}
+
+.codingfoto{
+    height: 200px;
+}
+
+.contentbtao{
+    display: inline-block;
+    width: 550px;
+    height: 250px;
+    position: relative;
+    /* top :20px; */
+    bottom: 10px;
+    left: 400px;
+    font-family: 'Combo', cursive;
+    font-size: 28px;
+}
+
+.jeevanmekyakiya{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.achievements{
+    height: 400px;
+    display: block;
+}
+
+.successfoto{
+    height: 260px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 270px;
+}
+
+.achievementscontent{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 0px;
+    left: 550px;
+}
+
+.mainline{
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+.expandmain{
+    font-family: 'Combo', cursive;
+}
+
+.contactme{
+    height: 150px;
+    position: relative;
+    top: 50px;
+    background-color: #553939;
+    margin-bottom: 0px;
+    /* position: relative;
+    bottom: 100px; */
+}
+
+.ok{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+}
+
+.comding{
+    height: 50px;
+    display: block;
+}
+
+
+.codingsite{
+    text-align: center;
+    position: relative;
+    right: 30px;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    left: 620px;
+}
+
+.codeforces{
+    display: inline-block;
+    height: 35px;
+    position: absolute;
+    top: 56px;
+    bottom: 0px;
+    left: 780px;
+}
+
+.codechef{
+    display: inline-block;
+    height: 31px;
+    position: absolute;
+    top: 56px;
+    bottom: 0px;
+    left: 820px;
+}
+
+.otherhandles{
+    text-align: center;
+    position: relative;
+    right: 30px;
+    font-family: 'Amatic SC', cursive;
+    /* color: white; */
+    font-size: 20px;
+    width: 200px;
+    left: 620px;
+    bottom: 20px;
+    color: white;
+}
+
+.Instagram{
+    display: inline-block;
+    height: 31px;
+    position: absolute;
+    top: 110px;
+    bottom: 0px;
+    left: 820px;
+}
+
+.github{
+    display: inline-block;
+    height: 31px;
+    position: absolute;
+    top: 110px;
+    bottom: 0px;
+    left: 780px;
+}
+
+.linkedin{
+    display: inline-block;
+    height: 31px;
+    position: absolute;
+    top: 110px;
+    bottom: 0px;
+    left: 860px;
+}
+
+.gmail{
+    display: inline-block;
+    height: 31px;
+    position: absolute;
+    top: 110px;
+    bottom: 0px;
+    left: 900px;
 }
